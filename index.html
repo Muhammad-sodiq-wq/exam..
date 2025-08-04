@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Время с Moment.js</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/locale/ru.min.js"></script>
+</head>
+<body class="bg-[#323232]">
+
+    <div class="bg-[#2A2A2A] w-[520px] flex justify-between items-center rounded-lg mx-auto my-[15%]">   
+        <div class="bg-[#3A3A3A] w-[93px] mt-[33px] mb-[33px] ml-[56px] rounded-xl">
+            <h1 id="hour" class="text-4xl text-white pb-3 pt-4 px-5 font-extrabold">--</h1>
+            <h3 class="text-2xl text-white px-2 pb-[10px] font-extrabold">Hour</h3>
+        </div>
+        <div class="mt-[33px] mb-[33px]">
+            <h2 class="text-white text-4xl font-extrabold">:</h2>
+        </div>
+        <div class=" mt-[33px] mb-[33px] bg-[#3A3A3A] w-[93px] rounded-xl">
+            <h1 id="minute" class="text-4xl text-white pb-3 pt-4 px-5 font-extrabold">--</h1>
+            <h3 class="text-2xl text-white px-1 pb-[10px] font-extrabold">Minute</h3>
+        </div>
+        <div class="mt-[68px] mb-[33px]">
+            <h2 class="text-white text-4xl pb-[33px] font-extrabold">:</h2>
+        </div>
+        <div class="bg-[#3A3A3A] w-[93px] mt-[33px] mb-[33px] rounded-xl">
+            <h1 id="second" class="text-4xl text-white pb-3 pt-4 px-5 font-extrabold">--</h1>
+            <h3 class="text-2xl text-white px-1 pb-[10px] font-extrabold">Second</h3>
+        </div>
+        <div class="mr-[43px]">
+            <h2 id="ampm" class="text-white text-base font-extrabold">--</h2>
+        </div>
+    </div>
+
+    <script src="./main.js">
+    </script>
+</body>
+</html>
